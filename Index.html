@@ -1,0 +1,1489 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>领袖户外</title>
+	<!-- css Reset -->
+	<link rel="stylesheet" href="css/cssreset.css">
+	<!-- 轮播样式 -->
+	<link rel="stylesheet" href="css/slide.css">
+	<!-- 公共样式 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 公共样式 -->
+	<link rel="stylesheet" href="/source/Static/common/css/common.css">
+	<!--图标-->
+	<link type="image/x-icon" rel="shortcut icon" href="/source/Static/home/common/images/favicon.ico" />
+	<!-- echo -->
+	
+	<!-- 引用jq -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script>
+			(function() {
+				if (! 
+					/*@cc_on!@*/
+				0) return;
+				var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+				var i= e.length;
+				while (i--){
+					document.createElement(e[i])
+				} 
+			})() ;
+		</script>
+    	<script src="../common/js/html5shiv.min.js"></script>
+    <![endif]-->
+	
+	<script>
+	
+		function browserRedirect() {
+			var sUserAgent = navigator.userAgent.toLowerCase();
+			var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+			var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+			var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+			var bIsAndroid = sUserAgent.match(/android/i) == "android";
+			var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+			var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+			if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)
+			{
+				window.location.href = window.location.href.replace(/home/g,'phone');
+				
+			}else{
+				
+			}
+		}
+		browserRedirect();
+	
+	</script>
+	
+	
+</head>
+<body>
+	<header>
+		<div class="nav01">
+			<div class="nav-top">
+				<div class="nav-top-left">
+					<a href="javascript:;" target="_blank">西安站 |<a href="javascript:;" target="_blank">杭州站 |				</div>
+				<div class="nav-top-right">
+					<img src="images/login_header.png" alt=""></a>
+					<a href="/home/index.php?s=/home/user/login">登录</a> |
+						<a href="/home/index.php?s=/home/user/register">注册</a>
+										<a href="/home/index.php?s=/home/line/order/type/center" target="_blank"> | 我的订单</a>
+					<a href="javascript:;" target="_blank"> | 加入收藏</a>
+					<a href="/home/index.php?s=/home/service/center" target="_blank"> | 服务中心</a>
+					<img src="images/tel_header.png" alt="联系电话">
+					<span>400-080-5860</span>
+				</div>
+			</div>
+		</div>
+		<div class="nav02">
+			<div class="nav-list">
+				<a class="go-welcome" href="/home/index.php?s=/home/index/welcome"><img src="images/logo.gif" alt="领袖户外"></a>
+				<!--logo图片加链接会导致样式混乱-->
+				<!--<img src="images/logo_header.png" alt="领袖户外">-->
+				<ul>
+											<li class="nav-list-top">
+														<a href="/home/index.php?s=/home/index/welcome" target="">首页</a>
+													</li>						<li class="nav-list-top">
+														<a href="/home/index.php?s=/home/line/list/m0/39" target="">深度游</a>
+							<div>
+								<ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/44" target="">四川</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/44/m2/63"  target="">稻城</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/44/m2/64"  target="">亚丁</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/44/m2/65"  target="">丹巴</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/62" target="">云南</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/62/m2/67"  target="">元阳</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/62/m2/68"  target="">东川</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/62/m2/69"  target="">罗平</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/181" target="">甘肃</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/182"  target="">张掖</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/185"  target="">酒泉</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/186"  target="">敦煌</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/187"  target="">兰州</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/188"  target="">郎木寺</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/189"  target="">扎尕那</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/181/m2/190"  target="">拉卜楞寺</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/191" target="">青海</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/191/m2/192"  target="">青海湖</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/191/m2/193"  target="">塔尔寺</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/191/m2/194"  target="">祁连</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/195" target="">内蒙古</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/195/m2/196"  target="">坝上</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/195/m2/197"  target="">呼伦贝尔</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/45" target="">新疆</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/45/m2/70"  target="">伊犁</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/45/m2/71"  target="">喀纳斯</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/45/m2/72"  target="">禾木</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/45/m2/73"  target="">赛里木湖</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/45/m2/74"  target="">吐鲁番</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/46" target="">西藏</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/46/m2/75"  target="">林芝</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/46/m2/77"  target="">然乌湖</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/46/m2/78"  target="">桃花沟</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/46/m2/79"  target="">卡定沟</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/46/m2/80"  target="">古格王朝</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/47" target="">贵州</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/47/m2/81"  target="">千江苗寨</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/47/m2/82"  target="">荔波</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/47/m2/83"  target="">高华村</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/47/m2/84"  target="">岜沙</a>
+											</li>								</ul><ul>
+									<li>
+																				<a href="/home/index.php?s=/home/line/list/m0/39/m1/49" target="">广西</a>
+									</li>
+									<li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/49/m2/85"  target="">桂林</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/49/m2/86"  target="">阳朔</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/49/m2/87"  target="">德天</a>
+											</li><li>
+																								<a href="/home/index.php?s=/home/line/list/m0/39/m1/49/m2/88"  target="">北海</a>
+											</li>								</ul>							</div>						</li>						<li class="nav-list-top">
+														<a href="/home/index.php?s=/home/line/list/m0/40" target="">摄影游</a>
+													</li>						<li class="nav-list-top">
+														<a href="/home/index.php?s=/home/line/list/m0/41" target="">民族行</a>
+													</li>						<li class="nav-list-top">
+														<a href="http://kllife.com/home/index.php?s=/home/line/book" target="_blank">私人定制</a>
+													</li>						<li class="nav-list-top">
+														<a href="http://shequ.kllife.com" target="_blank">论坛</a>
+													</li>				</ul>
+				<div class="search-header">
+					<img src="images/search_header.png" alt="">
+					<input type="text" placeholder="特惠线路...">
+					<a href="javascript:;">搜索</a>
+				</div>
+				<script type="text/javascript">
+					$('.search-header').find('a').click(function(){
+						var searchval = $(this).prev().val();
+						location.href = '/home/index.php?s=/home/line/list/cds/title|'+searchval+'|subheading|'+searchval;
+					});
+					
+					
+				</script>
+			</div>
+		</div>		
+	</header>
+	<!-- 私有样式 -->
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		#LRfloater0 img { display : none; }
+		#LRfloater2 {display: none; }
+		#swtColse { display: none; }
+	</style>
+	<!-- 轮播 -->
+	<div class="lunbo">
+		<!-- 轮播 -->
+		<div class="lubo">
+			<ul class="lubo_box">
+				<li style=";display: block;"><a href="http://kllife.com/home/index.php?s=/home/line/info/id/37" style="background-image:url(images/2017-01-25_58882d9207d01.jpg); background-size: 100% 100%;"></a></li>
+				<li><a href="http://kllife.com//home/index.php?s=/home/line/subject/id/18" style="background-image:url(images/2017-01-25_588859b73cee7.jpg); background-size: 100% 100%;"></a></li>
+				<li><a href="http://kllife.com//home/index.php?s=/home/line/subject/id/23" style="background-image:url(images/2017-01-25_58885a3bc3af0.jpg); background-size: 100% 100%;"></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 为什么选择我们 -->
+	<!--<div class="why-choose-us">
+		<a href="javascript:;">
+			<img src="images/choose_us.png" alt="">
+		</a>
+	</div>-->
+	<!-- 精彩专题 -->
+	
+
+	<div class="bg-gray">
+
+		<div class="special main">
+
+			<h2>超级目的地</h2>
+
+			<div class="special-exhibition">
+
+				<ul>
+										
+											
+						<li>
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/18">
+
+							<img src="images/2017-01-25_588818ede3267.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_58880135ca4e5.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>醉美云南</h4>
+
+								<h4>旅游必不可少的目的地</h4>
+
+								<p>古人用”彩云南现”来遥指这片神秘的云岭高原，在这块红土高原上，有四季如春的昆明，有古南诏大理，有神秘圣境香格里拉，有充满柔软时光的丽江，这里绚丽斑斓的多民族文化给了她的神秘多彩的无限魅力。</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/22">
+
+							<img src="images/2017-01-25_58881e2723097.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_58881b5618ade.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>甘南净土</h4>
+
+								<h4>享受18°的夏天</h4>
+
+								<p>拉卜楞寺的辩经声随着炊烟一同升起，草原上沁入心脾的酥油香久未散去，郎木寺如世外桃源般遗世独立，扎尕那峥嵘的石城在云雾中若隐若现……这里是圣境天堂般的甘南，光影中姑娘绯红的侧脸格外好看，转经廊外的老者默念着六字真言，充满信仰的人们匍匐在漫漫长路。</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/19">
+
+							<img src="images/2017-01-25_588821dec694e.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_588822052ddde.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>多彩贵州</h4>
+
+								<h4>淳朴的少数民族风情</h4>
+
+								<p>贵州秀丽古朴、风景如画，是世界上岩溶地貌发育最典型的地区之一，有最绚丽多彩的喀斯特景观。</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/20">
+
+							<img src="images/2017-01-25_58882323432af.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_5888234b2601c.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>圣域西藏</h4>
+
+								<h4>神的孩子都要去西藏</h4>
+
+								<p>西藏应该可以称得上最为“极致”的地方了，美得极致，高得极致，神圣得极致。如果你没有到达超过海拔5000米的高度，没有在空气稀薄地带感受过肺部的紧缩，没有在耀眼的阳光下被冰雪的反射光照射的无法张开双眼，没有在急剧下降的温度中体会渐渐变轻的生命，你将无法明白这个词的含义。 </p>
+
+							</div>
+
+						</a>
+						
+						</li>						
+						<li>
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/25">
+
+							<img src="images/2017-01-25_58884722d2adc.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_5888463409d4a.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>大美青海</h4>
+
+								<h4>每个人都该去的环湖路</h4>
+
+								<p>青海有太多梦中的景象，金黄的花海、耀眼的雪山、似海的碧水，恍然间，以为自己走进一场梦境。</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/24">
+
+							<img src="images/2017-01-25_58884f2fc73ce.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_588847c72696b.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>坝上草原</h4>
+
+								<h4>策马奔腾共享人生繁华</h4>
+
+								<p>坝上的美丽已不是秘密，天地间的灵性也许比风景的存在更为重要，你可以追溯那群奔跑的骏马、安静的牛羊，以及萦绕在心头的炊烟。带上相机、嗅着露珠、迎着阳光，让自己与一丝风景重叠……</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/21">
+
+							<img src="images/2017-01-25_58884f98d4114.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_5888496d9924e.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>新疆是个好地方</h4>
+
+								<h4></h4>
+
+								<p>新疆的喀纳斯是集冰川、湖泊、森林、草原、牧场、河流、民族风情、珍稀动植物于一体的综合景区； 壮观的冰川映衬着宁静的湖水，茫茫的草原包容着幽深的原始森林，古朴的图瓦人居住在禾木、白哈巴的原始村落，让人痴迷。</p>
+
+							</div>
+
+						</a>
+						
+												
+						
+						<a class="special-exhibition-product" href="http://kllife.com//home/index.php?s=/home/line/subject/id/23">
+
+							<img src="images/2017-01-25_5888506be3abd.jpg" alt="">
+
+							<img class="special-img" src="images/2017-01-25_58884fc844b45.png" alt="">
+
+							<div class="special-exhibition-describe">
+
+								<h4>冰雪神话</h4>
+
+								<h4>雪乡那么美</h4>
+
+								<p>漫步雪乡，看着那些“雪蘑菇”、“雪蛋糕”和“奶油冰棍”，仿佛置身于《绿野仙踪》里北风女神的宫殿，一切的一切，都被雪公主的巧手做成了冰清玉洁的雕塑。称这里是一座天然的“雪雕城”，真是一点也不过分。</p>
+
+							</div>
+
+						</a>
+						
+						</li>					
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- 顶部轮播 -->
+<script src="js/showandhide.js"></script>
+<script src="js/unslider.min.js"></script>
+	<!-- 精选热卖 -->
+	<div class="bg-white">
+		<div class="hot-sale main">                                     
+			<h2>精选热卖</h2>
+			<p><a href="/home/index.php?s=/home/line/list">更多</a></p>
+			<ul class="tab-list">
+				<li><a href="javascript:;" class="g cur" title="hot_line_recommend" data-id="0">推荐</a></li>
+									<div class="move-bg"></div>
+			</ul>			
+			<div class="hot-sale-product" id="hot_line_recommend">
+					<div class="hot-sale-product-small">
+												<a href="/home/index.php?s=/home/line/info/id/121" target="_blank">
+							<img src="images/2017-01-25_58886867a0620.jpg" alt="">
+							<u class="hot-sale-img">弥勒祭火节</u>
+							<div class="aaa" data-id="121">
+								<h4>弥勒祭火节</h4>
+								<span>富含人文风情与自然风光的经典摄影线路，全年仅一期，机会难得。</span>
+								<p>
+									￥<em>2980.00</em>起
+																	</p>
+								<strong>查看详情></strong>
+							</div>
+						</a>
+												<a href="/home/index.php?s=/home/line/info/id/38" target="_blank">
+							<img src="images/2017-01-25_588868f463386.jpg" alt="">
+							<!--<img class="hot-sale-img" src="images/special01_01.png" alt="">-->
+							<u class="hot-sale-img">雪乡经典游</u>
+							<div data-id="38">
+								<h4>雪乡经典游</h4>
+								<span>领袖户外带领你一路上欣赏东北美丽的林海雪原、前往中国第一大滑雪场体验速度与激情。</span>
+								<p>
+									￥<em>2980.00</em>起
+																	</p>
+								<strong>查看详情></strong>
+							</div>
+						</a>
+					</div>
+										<a href="/home/index.php?s=/home/line/info/id/30" class="hot-sale-big" target="_blank">
+						<img src="images/2017-01-25_58886923e45d4.jpg" alt="">
+						<!--<img class="hot-sale-img" src="images/special01_01.png" alt="">-->
+						<u class="hot-sale-img">元阳深度游</u>
+						<div data-id="30">
+							<h4>元阳深度游</h4>
+							<span>15-20℃云南冬日深度之旅</span>
+							<p>
+								￥<em>3280.00</em>起
+															</p>
+							<strong>查看详情></strong>
+						</div>
+					</a>
+					<div class="hot-sale-product-small">
+												<a href="/home/index.php?s=/home/line/info/id/37" target="_blank">
+							<img src="images/2017-01-25_5888b4c5ee5c8.jpg" alt="">
+							<!--<img class="hot-sale-img" src="images/hot01_01.png" alt="">-->
+							<u class="hot-sale-img">雪域桃花深度游</u>
+							<div data-id="37">
+								<h4>雪域桃花深度游</h4>
+								<span>领袖户外带你深入西藏林芝、波密地区，看桃花，看野桃花，看一万株野桃花，寻找中国最美的春天。</span>
+								<p>
+									￥<em>3580.00</em>起
+																	</p>
+								<strong>查看详情></strong>
+							</div>
+						</a>
+												<a href="/home/index.php?s=/home/line/info/id/113" target="_blank">
+							<img src="images/2017-01-25_5888694fef3b7.jpg" alt="">
+							<!--<img class="hot-sale-img" src="images/hot02_01.png" alt="">-->
+							<u class="hot-sale-img">早春新疆</u>
+							<div data-id="113">
+								<h4>早春新疆</h4>
+								<span>用镜头去感知新疆最撩人的春天</span>
+								<p>
+									￥<em>3580.00</em>起
+																	</p>
+								<strong>查看详情></strong>
+							</div>
+						</a>
+					</div>
+				</div>		</div>
+	</div>
+	<!-- 周边游 -->
+	<div class="bg-gray">
+		<div class="surrounding main">
+			<h2>周边游</h2>
+			<p><a href="/home/index.php?s=/home/line/list">更多</a></p>
+			<ul class="tab-list">
+				<li><a href="javascript:;" class="g cur" title="surrounding_line_recommend" data-id="0">推荐</a></li>
+									<div class="move-bg"></div>
+			</ul>
+			
+			<div class="surrounding-product" id="surrounding_line_recommend">
+					<ul>
+													<li class="clear-margin">
+								<div class="surrounding-product-content" data-id="144">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>5</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/144" target="_blank">
+										<img src="images/2017-01-25_5888b33a53587.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/144" target="_blank">霞浦摄影</a></h5>
+										<p>目的地：霞浦</p>
+										<strong>
+											￥<em>1800.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="surrounding-product-content" data-id="140">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>2</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/140" target="_blank">
+										<img src="images/2017-01-10_58749e5f44c79.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/140" target="_blank">丽水摄影</a></h5>
+										<p>目的地：丽水</p>
+										<strong>
+											￥<em>530.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="surrounding-product-content" data-id="139">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>2</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/139" target="_blank">
+										<img src="images/2017-01-10_58748d55767f3.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/139" target="_blank">南尖岩摄影</a></h5>
+										<p>目的地：</p>
+										<strong>
+											￥<em>420.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="clear-margin">
+								<div class="surrounding-product-content" data-id="28">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>1</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/28" target="_blank">
+										<img src="images/2016-12-13_584f6527542c6.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/28" target="_blank">徽杭古道</a></h5>
+										<p>目的地：安徽</p>
+										<strong>
+											￥<em>180.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="surrounding-product-content" data-id="179">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>3</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/179" target="_blank">
+										<img src="images/2017-01-23_5885abf8bfa9b.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/179" target="_blank">武功山</a></h5>
+										<p>目的地：江西萍乡</p>
+										<strong>
+											￥<em>368.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="surrounding-product-content" data-id="153">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>2</span>日游</p>
+									</div>
+									
+									
+									
+																		<a href="/home/index.php?s=/home/line/info/id/153" target="_blank">
+										<img src="images/2017-01-13_58783f1981914.jpg" data-echo="" alt="">
+									</a>
+									<div class="surrounding-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/153" target="_blank">婺源休闲A线</a></h5>
+										<p>目的地：婺源</p>
+										<strong>
+											￥<em>460.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>					</ul>
+				</div>		</div>
+	</div>
+	<!-- 深度游 -->
+	<div class="bg-white">
+		<div class="depth main">
+			<h2>深度游</h2>
+			<p><a href="/home/index.php?s=/home/line/list">更多</a></p>
+			<ul class="tab-list">
+				<li><a href="javascript:;" class="g cur" title="depth_line_recommend" data-id="0">推荐</a></li>
+									<div class="move-bg"></div>
+			</ul>
+			
+			<div class="depth-product" id="depth_line_recommend">
+				
+				
+					<ul>
+													<li class="clear-margin">
+								<div class="depth-product-content" data-id="30">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/30" target="_blank">
+										<img src="images/2017-01-25_58886923e45d4.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/30" target="_blank">元阳深度游</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>3280.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="depth-product-content" data-id="38">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>7</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/38" target="_blank">
+										<img src="images/2017-01-25_588868f463386.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/38" target="_blank">雪乡经典游</a></h5>
+										<p>目的地：黑龙江,吉林</p>
+										<strong>
+											￥<em>2980.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="depth-product-content" data-id="37">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/37" target="_blank">
+										<img src="images/2017-01-25_5888b4c5ee5c8.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/37" target="_blank">雪域桃花深度游</a></h5>
+										<p>目的地：西藏</p>
+										<strong>
+											￥<em>3580.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="clear-margin">
+								<div class="depth-product-content" data-id="113">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/113" target="_blank">
+										<img src="images/2017-01-25_5888694fef3b7.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/113" target="_blank">早春新疆</a></h5>
+										<p>目的地：新疆</p>
+										<strong>
+											￥<em>3580.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="depth-product-content" data-id="39">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>7</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/39" target="_blank">
+										<img src="images/2017-01-25_5888683b17a3f.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/39" target="_blank">贵州精华游</a></h5>
+										<p>目的地：贵州</p>
+										<strong>
+											￥<em>3380.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="depth-product-content" data-id="186">								
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>13</span>日游</p>
+									</div>								
+																		<a href="/home/index.php?s=/home/line/info/id/186" target="_blank">
+										<img src="images/2017-01-25_588868b26f4e6.jpg" data-echo="" alt="">
+									</a>
+									<div class="depth-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/186" target="_blank">新疆全景</a></h5>
+										<p>目的地：新疆</p>
+										<strong>
+																							￥<em>核算中</em>										</strong>
+									</div>
+								</div>
+							</li>					</ul>
+				</div>		</div>
+	</div>
+	
+	<!-- 摄影游 -->
+	<div class="bg-gray">
+		<div class="photograph main">
+			<h2>摄影游</h2>
+			<p><a href="/home/index.php?s=/home/line/list">更多</a></p>
+			<ul class="tab-list">
+				<li><a href="javascript:;" class="g cur" title="photograph_line_recommend" data-id="0">推荐</a></li>
+									<div class="move-bg"></div>
+			</ul>
+			
+			<div class="photograph-product" id="photograph_line_recommend">
+					<ul>
+													<li class="clear-margin">
+								<div class="photograph-product-content" data-id="32">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>9</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/32" target="_blank">
+										<img src="images/2017-01-25_5888b29b16dbc.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/32" target="_blank">元阳摄影游</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>3680.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="photograph-product-content" data-id="121">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/121" target="_blank">
+										<img src="images/2017-01-25_58886867a0620.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/121" target="_blank">弥勒祭火节</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>2980.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="photograph-product-content" data-id="65">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>7</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/65" target="_blank">
+										<img src="images/2017-01-04_586c65190091e.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/65" target="_blank">冬摄黄河甘南法会</a></h5>
+										<p>目的地：甘南</p>
+										<strong>
+											￥<em>3380.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="clear-margin">
+								<div class="photograph-product-content" data-id="182">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>6</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/182" target="_blank">
+										<img src="images/2017-01-25_5888b0a6a8a34.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/182" target="_blank">柬埔寨摄影</a></h5>
+										<p>目的地：柬埔寨</p>
+										<strong>
+											￥<em>3980.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="photograph-product-content" data-id="112">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>7</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/112" target="_blank">
+										<img src="images/2017-01-03_586b1a6a5e567.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/112" target="_blank">春约杏花沟</a></h5>
+										<p>目的地：新疆</p>
+										<strong>
+											￥<em>3280.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="photograph-product-content" data-id="113">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/113" target="_blank">
+										<img src="images/2017-01-25_5888694fef3b7.jpg" data-echo="" alt="">
+									</a>
+									<div class="photograph-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/113" target="_blank">早春新疆</a></h5>
+										<p>目的地：新疆</p>
+										<strong>
+											￥<em>3580.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>					</ul>
+				</div>		</div>
+	</div>
+	<!-- 民族行 -->
+	<div class="bg-white">
+		<div class="theme main">
+			<h2>民族行</h2>
+			<p><a href="/home/index.php?s=/home/line/list">更多</a></p>
+			<ul class="tab-list">
+				<li><a href="javascript:;" class="g cur" title="theme_line_recommend" data-id="0">推荐</a></li>
+									<div class="move-bg"></div>
+			</ul>
+			
+			<div class="theme-product" id="theme_line_recommend">
+					<ul>
+													<li class="clear-margin">
+								<div class="theme-product-content" data-id="128">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/128" target="_blank">
+										<img src="images/2017-01-05_586dffeecbad9.jpg" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/128" target="_blank">七彩云南-昆大丽</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>3280.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="theme-product-content" data-id="125">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/125" target="_blank">
+										<img src="images/2017-01-05_586df12c3182b.jpg" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/125" target="_blank">七彩云南-版纳</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>4980.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="theme-product-content" data-id="122">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>6</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/122" target="_blank">
+										<img src="images/2017-01-05_586de62d1b4c8.jpg" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/122" target="_blank">七彩云南-德宏</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>2980.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="clear-margin">
+								<div class="theme-product-content" data-id="114">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>9</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/114" target="_blank">
+										<img src="images/2017-01-03_586b57061489f.jpg" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/114" target="_blank">七彩云南-怒江</a></h5>
+										<p>目的地：云南</p>
+										<strong>
+											￥<em>3580.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="theme-product-content" data-id="127">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>7</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/127" target="_blank">
+										<img src="images/2017-01-05_586dffbc1c5a6.png" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/127" target="_blank">醉美贵州-黔西南</a></h5>
+										<p>目的地：贵州</p>
+										<strong>
+											￥<em>3280.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>							<li class="">
+								<div class="theme-product-content" data-id="124">
+									<!--几日游-->
+									<div class="jiriyou">
+										<p><span>8</span>日游</p>
+									</div>
+																		<a href="/home/index.php?s=/home/line/info/id/124" target="_blank">
+										<img src="images/2017-01-05_586df181b1dfc.jpg" data-echo="" alt="">
+									</a>
+									<div class="theme-product-content-describe">
+										<h5><a href="/home/index.php?s=/home/line/info/id/124" target="_blank">醉美贵州-黔东南</a></h5>
+										<p>目的地：贵州</p>
+										<strong>
+											￥<em>3880.00</em>起
+																					</strong>
+									</div>
+								</div>
+							</li>					</ul>
+				</div>		</div>
+	</div>
+	<!-- 精彩分享 -->	
+	<div class="bg-gray">
+		<div class="main commodity">
+			<h2>精彩分享</h2>
+			<p><a href="/home/index.php?s=/home/line/article/type/list" target="_blank">更多</a></p>
+			<div class="commodity-product">
+				<ul>
+					<li class="clear-margin">
+																				<div class="commodity-product-content">
+								<a href="/home/index.php?s=/home/line/article/id/22" target="_blank">
+									<img src="images/2017-01-11_5875d18ae7e09.png" alt="">
+								</a>
+								<div class="commodity-product-content-describe">
+									<h5><a href="/home/index.php?s=/home/line/article/id/22" target="_blank">春节罗平赏油菜花最全攻略</a></h5>
+								</div>
+							</div>
+						</li>						<li>														<div class="commodity-product-content">
+								<a href="/home/index.php?s=/home/line/article/id/21" target="_blank">
+									<img src="images/2017-01-11_5875ce9b8e0d9.png" alt="">
+								</a>
+								<div class="commodity-product-content-describe">
+									<h5><a href="/home/index.php?s=/home/line/article/id/21" target="_blank">冬季旅游者玩雪的天堂</a></h5>
+								</div>
+							</div>
+						</li>						<li>														<div class="commodity-product-content">
+								<a href="/home/index.php?s=/home/line/article/id/20" target="_blank">
+									<img src="images/2017-01-11_5875ca5264f66.png" alt="">
+								</a>
+								<div class="commodity-product-content-describe">
+									<h5><a href="/home/index.php?s=/home/line/article/id/20" target="_blank">元阳梯田景点最佳拍摄攻略</a></h5>
+								</div>
+							</div>
+						</li>						<li>														<div class="commodity-product-content">
+								<a href="/home/index.php?s=/home/line/article/id/11" target="_blank">
+									<img src="images/2016-12-23_585cf480dcf2a.jpg" alt="">
+								</a>
+								<div class="commodity-product-content-describe">
+									<h5><a href="/home/index.php?s=/home/line/article/id/11" target="_blank">色达有很多诗和远方的田野</a></h5>
+								</div>
+							</div>
+						</li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 活动回顾 -->
+	<div class="bg-white">
+		<div class="events-review main">
+			<h2>活动回顾</h2>
+			<p><a href="http://shequ.kllife.com" target="_blank">更多</a></p>
+			<div class="events-review-product">
+				<ul>
+					<li class="clear-margin">
+																				<div class="events-review-product-content">
+								<a href="http://shequ.kllife.com/Index/youjidetail.html?id=2723" target="_blank">
+									<img src="images/2017-01-17_587e18042c9ad.jpg" alt="">
+								</a>
+								<div class="events-review-product-content-describe">
+									<h5><a href="http://shequ.kllife.com/Index/youjidetail.html?id=2723" target="_blank">冬摄大运河，总有风景不可错过，总有年味让人回味！</a></h5>
+									<p>作者：柒月先森</p>
+									<!--<span></span>
+									<em></em>-->
+								</div>
+							</div>
+						</li>						<li>														<div class="events-review-product-content">
+								<a href="http://shequ.kllife.com/Index/youjidetail.html?id=2712" target="_blank">
+									<img src="images/2017-01-17_587e194d14241.jpg" alt="">
+								</a>
+								<div class="events-review-product-content-describe">
+									<h5><a href="http://shequ.kllife.com/Index/youjidetail.html?id=2712" target="_blank">人文风光与环境人像齐聚，杭州摄影师们年前的一次重大福利</a></h5>
+									<p>作者：杰森</p>
+									<!--<span></span>
+									<em></em>-->
+								</div>
+							</div>
+						</li>						<li>														<div class="events-review-product-content">
+								<a href="http://shequ.kllife.com/Index/youjidetail.html?id=2578" target="_blank">
+									<img src="images/2017-02-06_5897cd4b3bc17.jpg" alt="">
+								</a>
+								<div class="events-review-product-content-describe">
+									<h5><a href="http://shequ.kllife.com/Index/youjidetail.html?id=2578" target="_blank">寒冷档不住家长和孩子们出游的兴奋，越旅行越长大！</a></h5>
+									<p>作者：琪琪乖乖</p>
+									<!--<span></span>
+									<em></em>-->
+								</div>
+							</div>
+						</li>					
+					<li>
+						<div class="events-review-product-content">
+							<a class="events-review-more" href="http://shequ.kllife.com" target="_blank">
+								<img src="images/events-review-more.png" alt="">
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 领队风采 -->
+		<!-- 视频 -->
+	<div class="bg-white">
+		<div class="main video">
+			<h2>视频中心</h2>
+			<p><a href="/home/index.php?s=/home/line/video" target="_blank">更多</a></p>
+			<div class="video-product">
+				<ul>
+					<li class="clear-margin">
+																				<div class="video-product-content" data-id="video0">
+								<a class="video-show" href="javascript:;" onclick="addIframe('水上魔鬼城','http://player.youku.com/embed/XMTY0MDQ5NTkzNg==')">
+									<img src="images/2017-01-17_587e13cfedbe1.jpg" alt="">
+									<i></i>
+								</a>
+								<div class="video-product-content-describe">
+									<h5><a class="video-show" href="javascript:;" onclick="addIframe('水上魔鬼城','http://player.youku.com/embed/XMTY0MDQ5NTkzNg==')">水上魔鬼城</a></h5>
+									<p>领袖户外水上魔鬼城寻梦小队</p>
+								</div>
+							</div>
+						</li>						<li>														<div class="video-product-content" data-id="video1">
+								<a class="video-show" href="javascript:;" onclick="addIframe('新疆，再出发！','http://player.youku.com/embed/XMTU4MjczNjgwMA==')">
+									<img src="images/2017-01-17_587e24b5dd02e.jpg" alt="">
+									<i></i>
+								</a>
+								<div class="video-product-content-describe">
+									<h5><a class="video-show" href="javascript:;" onclick="addIframe('新疆，再出发！','http://player.youku.com/embed/XMTU4MjczNjgwMA==')">新疆，再出发！</a></h5>
+									<p>领袖户外新疆踩线小分队</p>
+								</div>
+							</div>
+						</li>						<li>														<div class="video-product-content" data-id="video2">
+								<a class="video-show" href="javascript:;" onclick="addIframe('聚焦同山','http://player.youku.com/embed/XMjQ3MzQ2Nzc1Ng==')">
+									<img src="images/2017-01-17_587e11d481d0a.jpg" alt="">
+									<i></i>
+								</a>
+								<div class="video-product-content-describe">
+									<h5><a class="video-show" href="javascript:;" onclick="addIframe('聚焦同山','http://player.youku.com/embed/XMjQ3MzQ2Nzc1Ng==')">聚焦同山</a></h5>
+									<p>百名摄影师齐聚同山</p>
+								</div>
+							</div>
+						</li>					<li>
+						<div class="video-product-content">
+							<a class="video_more" href="/home/index.php?s=/home/line/video" target="_blank">
+								<img src="images/video_more.png" alt="">
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 视频弹出 -->
+	<div class="mark"></div>
+	<div class="myiframe">
+		<div class="iframeTop">
+			<h4 id="titleIframe">小米Max</h4>
+			<a class="video_close" href="javascript:;">
+				<img class="video_close" src="images/video_close.png" alt="关闭">
+			</a>
+		</div>
+		<div class="iframe">
+			<iframe id="videoIframe" height=536 width=880 src="" frameborder=0 allowfullscreen></iframe>
+		</div>
+	</div>
+	
+<!-- 左侧导航栏 -->
+<div class="left-aside">
+	<ul>
+		<li><a class="left-aside-hot" href="javascript:;">热卖</a></li>
+		<li><a class="left-aside-surrounding" href="javascript:;">周边</a></li>
+		<li><a class="left-aside-depth" href="javascript:;">深度</a></li>
+		<li><a class="left-aside-photograph" href="javascript:;">摄影</a></li>
+		<li><a class="left-aside-theme" href="javascript:;">民族</a></li>
+	</ul>
+</div>
+
+	<!-- 右侧侧边栏 -->
+	<aside>
+		<!--<div class="join-us">
+			<a href="javascript:;"></a>
+		</div>-->
+		<a class="aside_hot" href="/home/index.php?s=/home/service/center" target="_blank">
+			<i></i>
+			<div class="aside_show aside_show_hot">
+				<p>帮助中心</p>
+			</div>
+		</a>
+		<a class="aside_mine" href="/home/index.php?s=/home/user/info" target="_blank">
+			<i></i>
+			<div class="aside_show aside_show_mine">
+				<p>个人中心</p>
+			</div>
+		</a>
+		<a class="aside_order" href="/home/index.php?s=/home/line/order/type/center" target="_blank">
+			<i></i>
+			<div class="aside_show aside_show_order">
+				<p>订单中心</p>
+			</div>
+		</a>
+		<a class="aside_weixin" href="javascript:;">
+			<i></i>
+			<div class="aside_show aside_show_weixin">
+				<img src="images/aside_erweima.png" alt="二维码">
+			</div>
+		</a>
+		<a class="aside_tel" href="javascript:;">
+			<i></i>
+			<div class="aside_show aside_show_tel">
+				<p>400-080-5860</p>
+			</div>
+		</a>
+		<a class="aside_qq" onclick="openZoosUrl('chatwin');">
+			<i></i>
+			<div class="aside_show aside_show_qq">
+				<p>在线咨询</p>
+			</div>
+		</a>
+		<a class="aside_top" href="#">
+			<i></i>
+		</a>
+	</aside>
+
+<!-- 更改tab-bg -->
+<script src="js/movebg.js"></script>
+<!-- tab -->
+<script src="js/tab.js"></script>
+<!-- 视频 -->
+<script src="js/iframe.js"></script>
+<!-- 顶部轮播 -->
+<script src="js/lunbo.js"></script>
+
+<script>
+
+//big轮播	
+	$(".lubo").lubo({});
+//small轮播
+	$('.special-exhibition').unslider({ 
+		dots: true
+	});
+//专业保证
+	var unslider01 = $('.professional-guarantee-slide').unslider({
+		dots: true
+	}),
+	data04 = unslider01.data('unslider');
+	$('.unslider-arrow01').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+
+//move-bg
+ 	$(".tab-list").movebg({	
+ 		width:78/*滑块的大小*/,
+        extra:0/*额外反弹的距离*/,
+        speed:500/*滑块移动的速度*/,
+        rebound_speed:400/*滑块反弹的速度*/
+    });
+    
+//左侧固定导航栏
+	function toTag(g, h) {
+		$(g).click(		
+			function(){				
+				$("html,body").animate({scrollTop: h}, 1000);
+			}
+		);
+	};
+
+	var Width = $(window).width();
+	$('.left-aside').css('left', (Width - 1200)/2 - 50 );
+	$(window).resize(function(){
+		var WidthR = $(window).width();
+        if( WidthR > 1300 ) {
+        	$('.left-aside').show();
+        	$(".left-aside").stop().animate({
+            	left: (WidthR - 1200)/2 - 50
+        	},150);
+        }else {
+        	$('.left-aside').hide();
+        }
+    });
+    
+	$(window).scroll( function (){
+		if ($(this).scrollTop() > 1145 && $(this).scrollTop() < 4480 && $(window).width() > 1300) {
+			$('.left-aside').fadeIn();
+		}else{
+			$('.left-aside').fadeOut();
+		};
+		if($(this).scrollTop() > 1150 && $(this).scrollTop() < 1620) {
+			$('.left-aside-hot').addClass('active');
+			$('.left-aside-hot').parent().siblings().children().removeClass('active');
+		}else if ($(this).scrollTop() >= 1620 && $(this).scrollTop() < 2390) {
+			$('.left-aside-surrounding').addClass('active');
+			$('.left-aside-surrounding').parent().siblings().children().removeClass('active');
+		}else if ($(this).scrollTop() >= 2390 && $(this).scrollTop() < 3130) {
+			$('.left-aside-depth').addClass('active');
+			$('.left-aside-depth').parent().siblings().children().removeClass('active');
+		}else if ($(this).scrollTop() >= 3130 && $(this).scrollTop() < 3890) {
+			$('.left-aside-photograph').addClass('active');
+			$('.left-aside-photograph').parent().siblings().children().removeClass('active');
+		}else if ($(this).scrollTop() >= 3890 && $(this).scrollTop() < 4700) {
+			$('.left-aside-theme').addClass('active');
+			$('.left-aside-theme').parent().siblings().children().removeClass('active');
+		}else if ($(this).scrollTop() > 4700) {
+			$('.left-aside-theme').removeClass('active');
+		}
+	});
+	
+	toTag('.left-aside-hot', 1150);
+	toTag('.left-aside-surrounding', 1690);
+	toTag('.left-aside-depth', 2460);
+	toTag('.left-aside-photograph', 3210);
+	toTag('.left-aside-theme', 3970);
+	
+//精彩专题
+	$('.special-exhibition-product').fadeInAndOut('special-img', 'div');
+//热门单品
+	$('.hot-sale-product a').hover( 
+		function () {
+			$(this).find('.hot-sale-img').stop().hide(500);			
+		},
+		function () {
+			$(this).find('.hot-sale-img').stop().show(1000);	
+		}
+	);
+//视频弹出
+	$('.video-product .video-show').click(function(){
+		$('.mark').show();
+		$('.myiframe').fadeIn();
+	});
+	//视频关闭
+	$('.video_close').click(function(){
+		$('.mark').hide();
+		$('.myiframe').hide();
+		$('#videoIframe').attr('src', '');
+	});
+	//iframe
+	function addIframe(title, src) {
+		var oIframe = document.getElementById('videoIframe');
+		var oIframeTitle = document.getElementById('titleIframe');
+		oIframe.setAttribute('src', src);
+		oIframeTitle.innerHTML = title;
+	};
+</script>
+<!--商务通代码--> 
+<script language="javascript" src="js/lsjs.aspx"></script>
+<script language="javascript" type="text/javascript" src="js/swt.js"></script>
+
+<div class="hangyeyanzheng" style="width:1200px; margin:0 auto; text-align:center;"> <a key ="56e24e9defbfb06cccdf1aa0" logo_size="83x30" logo_type="business" href="http://www.anquan.org" id="foot_rzpic"><script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script></a> 
+  <script language='javaScript' src='http://wljg.xags.gov.cn/bsjs/610113/61011300000320.js'></script> 
+  <a target='_blank' href='http://wljg.xags.gov.cn/bscx.do?method=hddoc&id=61011300000323'><img src='images/i_lo2.gif' border='0'></a> </div>
+<script type="text/javascript">
+
+	var domain = document.domain;
+
+	if(domain != 'www.kllife.com' && domain != 'kllife.com'){
+
+		document.getElementById('foot_rzpic').style.display = 'none';
+
+	}
+
+</script> 
+<!-- 功能脚本 -->
+<script type="text/javascript">		
+	$(document).ready(function(){
+		$('.special-exhibition-product').click(jumpToZhuanTi);
+	});
+	
+	// 专题跳转
+	function jumpToZhuanTi() {
+		location.href = '/home/index.php?s=/home/line/list';
+	}
+	
+	//图片垂直居中
+	window.onload=function(){
+		$('.surrounding-product-content > a img, .depth-product-content > a img, .photograph-product-content > a img, .theme-product-content > a img').each(function(){
+			$(this).css('marginTop',-(parseInt($(this).height()) - 240)*.5);
+		});
+	}
+	
+</script>
+
+	<footer>
+		<div class="footer-content">
+			<div class="footer-content-left">
+				<ul class="clear-footer-content-marginLeft">
+						<li>常见问题</li>
+						<li><a href="/home/index.php?s=/home/service/question/id/157">纯玩是什么意思？</a></li><li><a href="/home/index.php?s=/home/service/question/id/159">单房差是什么意思？</a></li><li><a href="/home/index.php?s=/home/service/question/id/161">领袖户外旅行网线下门店在哪里？</a></li><li><a href="/home/index.php?s=/home/service/question/id/163">有旅游保险吗？</a></li><li><a href="/home/index.php?s=/home/service/question/id/165">能够提供保单吗？</a></li>					</ul><ul class="">
+						<li>注册登录</li>
+						<li><a href="/home/index.php?s=/home/service/question/id/111">如何注册会员？</a></li><li><a href="/home/index.php?s=/home/service/question/id/113">如何找回密码？</a></li><li><a href="/home/index.php?s=/home/service/question/id/115">非会员预订线路如何查看订单？</a></li>					</ul><ul class="">
+						<li>参与活动</li>
+						<li><a href="/home/index.php?s=/home/service/question/id/171">不是会员可以直接预订线路吗？</a></li><li><a href="/home/index.php?s=/home/service/question/id/173">看了线路想预订怎么办？</a></li><li><a href="/home/index.php?s=/home/service/question/id/175">电话预定好了，如何付款和签约？</a></li><li><a href="/home/index.php?s=/home/service/question/id/177">付款成功后还有什么要做的？</a></li><li><a href="/home/index.php?s=/home/service/question/id/179">不想去了，可以退团吗？</a></li>					</ul><ul class="">
+						<li>付款与发票</li>
+						<li><a href="/home/index.php?s=/home/service/question/id/123">签约可以刷卡吗？</a></li><li><a href="/home/index.php?s=/home/service/question/id/125">付款方式有哪些？</a></li><li><a href="/home/index.php?s=/home/service/question/id/127">怎么网上支付？</a></li><li><a href="/home/index.php?s=/home/service/question/id/129">是否可提供发票？</a></li><li><a href="/home/index.php?s=/home/service/question/id/131">发票内容可以自助选择吗？</a></li>					</ul>				<!--<div class="small-link small-link-top">
+					<p>
+						主题旅游：
+						<a href="javascript:;">华东</a>
+						<a href="javascript:;">坝上</a>
+						<a href="javascript:;">柬埔寨</a>
+						<a href="javascript:;">西藏</a>
+						<a href="javascript:;">额济纳旗</a>
+						<a href="javascript:;">雪乡旅游</a>
+						<a href="javascript:;">云南摄影</a>
+						<a href="javascript:;">行摄陕西</a>
+						<a href="javascript:;">黔东南</a>
+						<a href="javascript:;">四川</a>
+						<a href="javascript:;">青海</a>
+						<a href="javascript:;">新疆</a>
+						<a href="javascript:;">甘南</a>
+						<a href="javascript:;">川藏</a>
+						<a href="javascript:;">呼伦贝尔</a>
+					</p>
+				</div>
+				<div class="small-link small-link-bottom">
+					<p>
+						友情链接：
+						<a href="javascript:;">蓬莱</a>
+						<a href="javascript:;">北京会展</a>
+						<a href="javascript:;">驴友论坛</a>
+						<a href="javascript:;">天涯户外</a>
+						<a href="javascript:;">户外轨迹路线</a>
+						<a href="javascript:;">张家界旅游</a>
+						<a href="javascript:;">渭南户外港</a>
+						<a href="javascript:;">农家院旅游</a>
+						<a href="javascript:;">行者物语网</a>
+						<a href="javascript:;">携程主题游</a>
+					</p>
+				</div>-->
+			</div>
+			<div class="footer-content-right">
+				<img src="images/footer_erweima.png" alt="">
+			</div>
+		</div>
+	</footer>
+	<div class="footer-bottom">
+		<div class="footer-bottom-content">
+			<!--<p>
+				领袖户外服务信息：
+				<a href="javascript:;">关于我们</a>
+				|
+				<a href="javascript:;">联系我们</a>
+				|
+				<a href="javascript:;">招贤纳士</a>
+				|
+				<a href="javascript:;">帮助中心</a>
+				|
+				<a href="javascript:;">商务合作</a>
+			</p>-->
+			<span style="margin-top: 20px;">Copyright © 2006-2014 kllife.com | 陕西浪客国际旅行社有限责任公司版权所有</span><em>公司地址：陕西省西安市雁塔区太白南路上上国际</em>
+			<br>
+			<span>领袖户外经营许可证号：L-SNX00306 陕ICP备14011728号-1</span>
+		</div>
+	</div>
+	
+	<!-- Imported toastr -->
+	<script src="js/toastr.min.js"></script>
+	<script src="js/functions.js"></script>
+	<!-- 日期 -->
+	<script src="js/jquery-jcdate.js"></script>
+	<!-- 轮播 -->
+	<script src="js/unslider.min.js"></script>
+	<!-- 自绑定 -->
+	<script src="js/showandhide.js"></script>
+	<!-- 头部js -->
+	<script src="js/headroom.js"></script>
+	<!-- 侧边栏&头部 -->
+	<script src="js/aside-header.js"></script>
+	<!--商务通统计代码--> 
+<script language="javascript" src="js/lsjs.aspx"></script>
+<script language="javascript" type="text/javascript" src="js/swt.js"></script>
+<!--百度统计代码--> 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?a6f69a2a062b07c67a4ae301e0963ca8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+<!--CNZZ统计代码--> 
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cdiv id='cnzz_stat_icon_1000019958'%3E%3C/div%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000019958%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script> 
+<!--网盟网站定向代码--> 
+<script type="text/javascript">
+<!-- 
+(function (d) {
+(window.bd_cpro_rtid = window.bd_cpro_rtid || []).push({id:"nWckPj0L"});
+var s = d.createElement("script");s.type = "text/javascript";s.async = true;s.src = location.protocol + "//cpro.baidu.com/cpro/ui/rt.js";
+var s0 = d.getElementsByTagName("script")[0];s0.parentNode.insertBefore(s, s0);
+})(document);
+//-->
+</script></body>
+</html>
